@@ -136,5 +136,3 @@ function EvaluateTokenized(parts, i)
 
     return result, i
 end
-
---  Could I have done this using just dofile(), saving some time? Probably yes
