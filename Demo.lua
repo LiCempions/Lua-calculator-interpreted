@@ -1,7 +1,8 @@
 dofile("Calculator-v2.lua")
 
-print("Inserisci l'espressione")
-local exp = io.read() --[[5*(3 +   1)-8+3**2]]
+print("Insert the expression")
+local exp = io.read() -- Demo expression to copy and paste:    5*(3 +   1)-8+3**2
 local parts = TokenizeExpression(exp)
+local result = EvaluateTokenized(parts)
 
-print( table.pack( EvaluateTokenized(parts) )[1] )
+print( result )
