@@ -9,3 +9,6 @@ local parts = TokenizeExpression(expression)
 local result = EvaluateTokenized(parts)
 ```
 In this exaple, "result" will contain the result.
+
+## Notes
+- The calculator does not support implicit multiplications, for example `5 ln4`
